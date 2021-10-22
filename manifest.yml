@@ -1,9 +1,9 @@
 ---
 applications:
-  - name: nutrix-config-server
+  - name: nutrix-config-service
     path: target/config-server-0.0.1-SNAPSHOT.jar
     memory: 1GB
-    host: nutrix-config
+    host: nutrix-config-service
     instances: 1
     buildpacks:
       - java_buildpack
